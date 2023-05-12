@@ -1,0 +1,6 @@
+.footer{
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
