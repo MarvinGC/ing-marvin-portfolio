@@ -1,7 +1,7 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook,faInstagram,faYoutube, faLinkedin} from "@fortawesome/free-brands-svg-icons";
-import marvingc from '../assets/marvingc.jpg';
+import marvingc from '../assets/img/marvingc.jpg';
 import './Hero.css';
 
 const Hero = () => {

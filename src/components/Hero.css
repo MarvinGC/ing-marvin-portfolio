@@ -27,6 +27,7 @@
     object-fit: cover;
     width: 350px;
     height: 350px;
+    transform: scale(1.2);
 }
 .hero-description h1 {
     text-transform: uppercase;
