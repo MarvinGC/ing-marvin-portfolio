@@ -19,7 +19,7 @@ const Portfolio = () => {
         }
     };
     return (
-        <div className="portfolio section-padding">
+        <div id="portfolio" className="portfolio section-padding">
             <h1>Mis Proyectos</h1>
             <div className="portfolio-content section-padding">
                 <div className="portfolio-section" ref={scrollRef}>

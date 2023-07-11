@@ -6,11 +6,11 @@ import './Hero.css';
 
 const Hero = () => {
     return (
-        <div className="hero" id="hero">
+        <div className="hero" id="home">
             <div className="hero-description">
                 <img src={marvingc} alt="Marvin"/>
-                <h1>Hola mi nombre es <br/> Marvin Gasca Calderón</h1>
-                <h3> Soy Ingeniero en Computación <br /> Desarrolador Web <br/> Diseñador UX/UI </h3>
+                <h1>Ingeniero en Computación <br/> Marvin Alejandro <br/> Gasca Calderón</h1>
+                <h3> Especialista en <br /> Desarrollo Web </h3>
                 <p>
                     Encuentrame en las redes sociales:
                 </p>
