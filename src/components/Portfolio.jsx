@@ -26,26 +26,29 @@ const Portfolio = () => {
                     <div className="project">
                         <img src={project1} alt="project1"/>
                         <div className="project-description">
-                            Ejemplo de plantilla web de un portafolio en ReactJS
+                            <div>Ejemplo de plantilla web de un portafolio en ReactJS</div>
                         </div>
                     </div>
                     <div className="project">
                         <img src={project2} alt="project2"/>
                         <div className="project-description">
-                            Ejemplo de plantilla web publicitaria de OpenIA GPT-3
+                            <div>Ejemplo de plantilla web publicitaria de Open AI GPT-3</div>
                         </div>
                     </div>
                     <div className="project">
                         <img src={project3} alt="project3"/>
                         <div className="project-description">
-                            Ejemplo de plantilla web para un restaurante
+                            <div>Ejemplo de plantilla web para un restaurante</div>
                         </div>
                     </div>
                     <div className="project">
                         <img src={project4} alt="project4"/>
                         <div className="project-description">
-                            Programa en Python para extraer música de un mix
-                            Video en youtube
+                            <div>
+                                Video en youtube
+                                Programa en Python para extraer música de un Mix
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=yxKSSlSr9GY"><span className="link-project"></span></a>
                         </div>
                     </div>
                 </div>
