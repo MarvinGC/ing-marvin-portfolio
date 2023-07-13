@@ -15,10 +15,10 @@ const Hero = () => {
                     Encuentrame en las redes sociales:
                 </p>
                 <div className="hero-socialmedia">
-                    <FontAwesomeIcon className="socialmedia-icon" icon={faFacebook} />
-                    <FontAwesomeIcon className="socialmedia-icon" icon={faInstagram} />
-                    <FontAwesomeIcon className="socialmedia-icon" icon={faYoutube} />
-                    <FontAwesomeIcon className="socialmedia-icon" icon={faLinkedin} />
+                    <a href="https://www.facebook.com/profile.php?id=100086570497911" target="_blank"><FontAwesomeIcon className="icon" icon={faFacebook} /></a>
+                    <a href="https://www.instagram.com/marlexgc/"><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
+                    <a href="https://www.youtube.com/channel/UCfgkvw52ngpktT26C2wqsrQ"><FontAwesomeIcon className="icon" icon={faYoutube} /></a>
+                    <a href="https://www.linkedin.com/in/marvin-alejandro-gasca-calderon-344251264/"><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
                 </div>
             </div>
         </div>
