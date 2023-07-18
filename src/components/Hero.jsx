@@ -20,6 +20,11 @@ const Hero = () => {
                     <a href="https://www.youtube.com/channel/UCfgkvw52ngpktT26C2wqsrQ"><FontAwesomeIcon className="icon" icon={faYoutube} /></a>
                     <a href="https://www.linkedin.com/in/marvin-alejandro-gasca-calderon-344251264/"><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
                 </div>
+                <div className="hero-button">
+                    <a href="../assets/Curriculum Mayo 2023.pdf" download>
+                        Descargar CV
+                    </a>
+                </div>
             </div>
         </div>
     );
