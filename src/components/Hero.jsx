@@ -2,7 +2,7 @@ import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook,faInstagram,faYoutube, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import marvingc from '../assets/img/perfil.jpg';
-import cvmarvin from '../assets/Curriculum Mayo 2023.pdf';
+import cvmarvin from '../assets/Curriculum Julio 2023.pdf';
 import './Hero.css';
 
 const Hero = () => {
