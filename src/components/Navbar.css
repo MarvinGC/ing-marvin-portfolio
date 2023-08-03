@@ -27,3 +27,8 @@
     transition: ease;
     transition-delay: 10ms;
 }
+@media  screen and (max-width: 500px) {
+    .navbar {
+        padding: 1rem;
+    }
+}
