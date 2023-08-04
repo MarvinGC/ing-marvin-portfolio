@@ -15,7 +15,7 @@ export const socialmedia = [
 ]
 export const projects = [
     {image: project1, description: "Ejemplo de plantilla web para un protafolio en ReactJS", url: "https://startbotstrap.netlify.app/"},
-    {image: project2, description: "Ejemplo de plantilla web publicitaria de Open AI GPT-3", url: "https://startbotstrap.netlify.app/"},
-    {image: project3, description: "Ejemplo de plantilla web para un restaurante", url: "https://startbotstrap.netlify.app/"},
+    {image: project2, description: "Ejemplo de plantilla web publicitaria de Open AI GPT-3", url: "https://gpt3-openai-plantilla.netlify.app/"},
+    {image: project3, description: "Ejemplo de plantilla web para un restaurante", url: "https://restaurante-moderno.netlify.app/"},
     {image: project4, description: "Video en youtube Programa en Python para extraer música de un Mix", url: "https://www.youtube.com/watch?v=yxKSSlSr9GY"},
 ]
