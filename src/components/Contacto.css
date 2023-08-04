@@ -30,8 +30,9 @@
     flex-direction: column;
 }
 .contacto-form input{
+    font-family: var(--font-family);
     padding-left: 2rem;
-    font-size: 20px;
+    font-size: 16px;
     height: 60px;
     width: 35vw;
     color: black;
@@ -40,8 +41,9 @@
     border: none;
 }
 .contacto-form textarea{
+    font-family: var(--font-family);
     padding: 1.5rem;
-    font-size: 20px;
+    font-size: 16px;
     width: 35vw;
     color: black;
     margin: 1.5rem;

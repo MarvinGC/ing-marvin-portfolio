@@ -1,10 +1,10 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook,faInstagram,faYoutube, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 //projcets
-import project1 from '../assets/img/start-bootstrap-mini.png';
-import project2 from '../assets/img/gpt3-mini.png';
-import project3 from '../assets/img/modern_restaurant-mini.png';
-import project4 from '../assets/img/youtube-project-mini.png';
+import startbootstrap from '../assets/img/start-bootstrap-mini.png';
+import gpt3 from '../assets/img/gpt3-mini.png';
+import modern_restaurant from '../assets/img/modern_restaurant-mini.png';
+import youtube_mix from '../assets/img/youtube-project-mini.png';
 
 export const socialmedia = [
     // {link: "https://www.facebook.com/profile.php?id=100086570497911", icon: <FontAwesomeIcon className="icon" icon={faFacebook} />},
@@ -14,8 +14,8 @@ export const socialmedia = [
     {link: "https://github.com/MarvinGC", icon: <FontAwesomeIcon className="icon" icon={faGithub} />}
 ]
 export const projects = [
-    {image: project1, description: "Ejemplo de plantilla web para un protafolio en ReactJS", url: "https://startbotstrap.netlify.app/"},
-    {image: project2, description: "Ejemplo de plantilla web publicitaria de Open AI GPT-3", url: "https://gpt3-openai-plantilla.netlify.app/"},
-    {image: project3, description: "Ejemplo de plantilla web para un restaurante", url: "https://restaurante-moderno.netlify.app/"},
-    {image: project4, description: "Video en youtube Programa en Python para extraer música de un Mix", url: "https://www.youtube.com/watch?v=yxKSSlSr9GY"},
+    {image: startbootstrap, description: "Plantilla web", url: "https://startbotstrap.netlify.app/"},
+    {image: modern_restaurant, description: "Plantilla web", url: "https://restaurante-moderno.netlify.app/"},
+    {image: youtube_mix, description: "Video en YouTube", url: "https://www.youtube.com/watch?v=yxKSSlSr9GY"},
+    {image: gpt3, description: "Plantilla web", url: "https://gpt3-openai-plantilla.netlify.app/"},
 ]
