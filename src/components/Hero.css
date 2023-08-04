@@ -40,51 +40,11 @@
 }
 .hero-socialmedia {
     margin: 2rem 0 0 0;
-    display: inline-block;
-}
-.hero-socialmedia a{
-    width: 35px;
-    height: 35px;
-    display: inline-flex;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    margin-right: 1rem;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    border: 1px solid white;
-    transition: 0.3s ease-in-out;
-}
-.hero-socialmedia a::before {
-    content: "";
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    background-color: white;
-    border-radius: 50%;
-    transform: scale(0);
-	transition: 0.3s ease-in-out;
-}
-.hero-socialmedia a:hover::before {
-    transform: scale(1);
-}
-.hero-socialmedia a:hover .icon{
-    filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
-}
-.hero-button{
-    background: var(--color-yellow-dark-300);
-    margin: 3rem 0;
-    border-radius: 0.25rem;
-    padding: 1.5rem 4rem 1.5rem;
-    color: white;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-.hero-button:hover{
-    background: var(--color-yellow-dark-500);
+    display: flex;
+    flex-direction: row;
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1125px){
     .hero {
         height: 1100px;
     }

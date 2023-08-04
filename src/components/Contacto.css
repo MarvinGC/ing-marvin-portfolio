@@ -32,39 +32,28 @@
 .contacto-form input{
     padding-left: 2rem;
     font-size: 20px;
-    height: 70px;
+    height: 60px;
     width: 35vw;
     color: black;
     margin: 1.5rem;
     border-radius: 5px;
-}
-.contacto-form input::placeholder {
-    font-weight: 700;
-    color: grey;
+    border: none;
 }
 .contacto-form textarea{
-    padding: 2rem 2rem;
+    padding: 1.5rem;
     font-size: 20px;
     width: 35vw;
     color: black;
     margin: 1.5rem;
     border-radius: 5px;
+    border: none;
 }
-.contacto-form textarea::placeholder{
+.contacto-form input::placeholder, .contacto-form textarea::placeholder{
     font-weight: 700;
     color: grey;
 }
-.contacto-form_button {
-    background: var(--color-yellow-dark-300);
-    margin: 3rem;
-    border-radius: 0.25rem;
-    padding: 1.5rem 4rem 1.5rem;
-    color: white;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-.contacto-form_button:hover {
-    background: var(--color-yellow-dark-500);
+.contacto-form input:focus, .contacto-form textarea:focus{
+    outline: 2px solid var(--color-blue-dark-400);
 }
 @media screen and (max-width: 900px){
     .contacto {

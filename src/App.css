@@ -17,3 +17,30 @@ a {
 .section-padding {
     padding: 4rem 5rem;
 }
+.button-general {
+    background-color: var(--color-yellow-dark-300);
+    margin: 3rem 0;
+    border-radius: 0.25rem;
+    padding: 1.5rem 3.5rem;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+.button-general:hover {
+    background: var(--color-yellow-dark-500);
+}
+.button-general-a {
+    background: var(--color-yellow-dark-300);
+    margin: 3rem 0;
+    border-radius: 0.25rem;
+    padding: 1.2rem 2.5rem;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button-general-a:hover{
+    background: var(--color-yellow-dark-500);
+}

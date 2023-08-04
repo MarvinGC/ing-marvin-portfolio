@@ -1,9 +1,9 @@
 import React from 'react';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faFacebook,faInstagram,faYoutube, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import './Hero.css';
+import SocialIcon from './SocialIcon';
 import marvingc from '../assets/img/perfil.jpg';
 import cvmarvin from '../assets/Curriculum Julio 2023.pdf';
-import './Hero.css';
+import { socialmedia } from '../utils/constants';
 
 const Hero = () => {
     return (
@@ -16,13 +16,12 @@ const Hero = () => {
                     Encuentrame en las redes sociales:
                 </p>
                 <div className="hero-socialmedia">
-                    {/* <a href="https://www.facebook.com/profile.php?id=100086570497911" target="_blank"><FontAwesomeIcon className="icon" icon={faFacebook} /></a>
-                    <a href="https://www.instagram.com/marlexgc/"><FontAwesomeIcon className="icon" icon={faInstagram} /></a> */}
-                    <a href="https://www.youtube.com/channel/UCfgkvw52ngpktT26C2wqsrQ" target="_balnk"><FontAwesomeIcon className="icon" icon={faYoutube} /></a>
-                    <a href="https://www.linkedin.com/in/marvin-alejandro-gasca-calderon-344251264/" target="_balnk"><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
-                    <a href="https://github.com/MarvinGC" target="_balnk"><FontAwesomeIcon className="icon" icon={faGithub} /></a>
+                    {   socialmedia.map((social) => (
+                            <SocialIcon link={social.link} icon={social.icon}/>
+                        ))
+                    }
                 </div>
-                <div className="hero-button">
+                <div className="button-general-a">
                     <a
                         href={cvmarvin}
                         download="CV-Ing-Marvin"
