@@ -11,18 +11,20 @@ function Contacto() {
         .then((result) => {
             Swal.fire({  
                 title: 'Correcto',  
-                text: 'Se envio un mensaje',
-                icon: 'success'
+                text: 'Se envió un mensaje',
+                icon: 'success',
+                confirmButtonColor: '#01497C',
               }); 
             }, (error) => {
             Swal.fire({
                 title: 'Error',
                 text: 'Hubo algún error porfavor intentelo más tarde',
-                icon: 'error'
+                icon: 'error',
+                confirmButtonColor: '#01497C'
             })
             }
         );
- };
+    };
   return (
     <div id='contact' className='contacto section-padding'>
         <div className="contacto-title">
