@@ -31,11 +31,11 @@ function Contacto() {
             <div className="contacto-content">
                 <form className="contacto-form" id="contacto-form" ref={form} onSubmit={sendEmail}>
                     <div className="form-inputs">
-                        <input type="text" name="from_name" placeholder="Nombre"/>
-                        <input type="text" name="from_email" placeholder="Correo Electrónico"/>
-                        <input type="text" name="from_number" placeholder="Número"/>
+                        <input type="text" name="from_name" placeholder="Nombre" required/>
+                        <input type="email" name="from_email" placeholder="Correo Electrónico" required/>
+                        <input type="number" name="from_number" placeholder="Número" required/>
                     </div>
-                    <textarea name="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <textarea name="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
                 </form>
                 <button className="button-general" type="submit" form="contacto-form" value="value">
                     Enviar mensaje
