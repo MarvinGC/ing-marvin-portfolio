@@ -10,7 +10,7 @@ export const socialmedia = [
     // {link: "https://www.facebook.com/profile.php?id=100086570497911", icon: <FontAwesomeIcon className="icon" icon={faFacebook} />},
     // {link: "https://www.instagram.com/marlexgc/", icon: <FontAwesomeIcon className="icon" icon={faInstagram} />},
     {link: "https://www.youtube.com/channel/UCfgkvw52ngpktT26C2wqsrQ", icon: <FontAwesomeIcon className="icon" icon={faYoutube} />},
-    {link: "https://www.linkedin.com/in/marvin-alejandro-gasca-calderon-344251264/", icon: <FontAwesomeIcon className="icon" icon={faLinkedin} />},
+    {link: "https://www.linkedin.com/in/marvin-alejandro-gasca-calderon/", icon: <FontAwesomeIcon className="icon" icon={faLinkedin} />},
     {link: "https://github.com/MarvinGC", icon: <FontAwesomeIcon className="icon" icon={faGithub} />}
 ]
 export const projects = [
